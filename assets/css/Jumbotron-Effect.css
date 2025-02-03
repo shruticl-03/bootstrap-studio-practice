@@ -34,7 +34,22 @@ div.jumbotron.product-month {
 
 .etymology-section {
   background-color: var(--bs-warning-border-subtle);
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   margin-top: 60px;
+}
+
+.icon.ion-waterdrop.earth {
+  color: var(--bs-blue);
+}
+
+.icon.ion-heart.earth {
+  color: red;
+}
+
+.icon.ion-earth.earth {
+  color: skyblue;
+}
+
+.earth-text {
 }
 

@@ -20,3 +20,18 @@ p {
   margin-top: 5px;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: var(--bs-navbar-active-color);
+  background-color: skyblue;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: var(--bs-nav-link-hover-color);
+}
+
+.img-fluid {
+  max-width: 100%;
+  padding-left: 10px;
+  height: auto;
+}
+
