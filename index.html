@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/Jumbotron-Effect.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer-.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -16,15 +17,13 @@
 
 <body>
     <nav class="navbar navbar-expand-md fixed-top bg-warning-subtle">
-        <div class="container"><a class="navbar-brand" href="#"><strong>Beauty of Nature</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand" href="https://www.nature.com/"><strong>Beauty of Nature</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">History of nature</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Research articles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Nature communications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">People &amp; Nature</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
-                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link nav-link-active" href="https://www.nature.com/nature/history-of-nature">History of Nature</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-active" href="https://www.nature.com/nature/research-articles">Research articles</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-active" href="https://en.wikipedia.org/wiki/Nature_Communications">Nature communications</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-active" href="https://www.britishecologicalsociety.org/content/people-and-nature/">People &amp; Nature</a></li>
                 </ul>
             </div>
         </div>
@@ -36,8 +35,8 @@
                     <div class="row">
                         <div class="col-sm-5 col-md-7 offset-sm-7 offset-md-5">
                             <h1>Nature</h1>
-                            <p id="info">All the animals, plants, rocks, etc. in the world and all the features, forces, and processes that happen or exist independently of people, such as the weather, the sea, mountains, the production of young animals or plants, and growth.</p>
-                            <p><a class="btn btn-primary" role="button" href="#">Learn more</a></p>
+                            <p id="info">Beauty of Nature is dedicated to promoting eco-friendly lifestyles, sustainability, and the wonders of nature through our products and initiatives.</p>
+                            <p><a class="btn btn-primary" role="button" href="https://www.nature.com/">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -68,39 +67,48 @@
         </div>
     </div>
     <div class="container-fluid body-section" id="good-2">
-        <h2 class="text-center">Gallery</h2>
+        <h2 class="text-center mt-2">Gallery</h2>
         <div class="row">
-            <div class="col-4"><a href="assets/img/pic1.jpg" target="_blank"><img class="img-fluid" src="assets/img/pic1.jpg"></a></div>
-            <div class="col-4"><a href="assets/img/pic4.jpg" target="_blank"><img class="img-fluid" src="assets/img/pic4.jpg"></a></div>
-            <div class="col-4"><a href="assets/img/pic1.jpg" target="_blank"><img class="img-fluid" src="assets/img/pic1.jpg"></a></div>
+            <div class="col-4">
+                <div class="card" data-lightbox="nature"><a href="assets/img/pic1.jpg" target="_blank"><img class="img-fluid" src="assets/img/pic1.jpg"></a></div>
+            </div>
+            <div class="col-4">
+                <div class="card" data-lightbox="nature"><a href="assets/img/pic4.jpg" target="_blank"><img class="img-fluid" src="assets/img/pic4.jpg"></a></div>
+            </div>
+            <div class="col-4">
+                <div class="card" data-lightbox="nature"><a href="assets/img/pic4.jpg" target="_blank"><img class="img-fluid" src="assets/img/gestion-foret-saviez-vous.jpg"></a></div>
+            </div>
         </div>
     </div>
     <footer>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 footer-navigation">
-                <h3><a href="#">Beauty of Nature</a></h3>
-                <p class="links"><a href="#">Jog Falls</a><strong> · </strong><a href="#">Murudeshwar</a><strong> · </strong><a href="#">Charmady Ghat</a><strong> · </strong><a href="#">Yana</a><strong> · </strong><a href="#">Udupi</a><strong> · </strong><a href="#">Dandeli</a></p>
-                <p class="company-name">Beauty of Nature © 2025 </p>
-            </div>
-            <div class="col-sm-6 col-md-4 footer-contacts">
-                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
-                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 footer-navigation">
+                    <h3><a href="#">Beauty of Nature</a></h3>
+                    <p class="links"><a href="#">Jog Falls</a><strong> · </strong><a href="#">Murudeshwar</a><strong> · </strong><a href="#">Charmady Ghat</a><strong> · </strong><a href="#">Yana</a><strong> · </strong><a href="#">Udupi</a><strong> · </strong><a href="#">Dandeli</a></p>
+                    <p class="company-name">Beauty of Nature © 2025 </p>
                 </div>
-                <div><i class="fa fa-phone footer-contacts-icon"></i>
-                    <p class="footer-center-info email text-start"> +1 555 123456</p>
+                <div class="col-sm-6 col-md-4 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">Banashankari</span> Bangalore, Karnataka</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-start"><a href="tel:8884317767">+91 8884317767 </a></p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p> <a href="mailto:03shruticl@gmail.com" target="_blank"><br> <strong>info.beautyofnature@gmail.com</strong></a></p>
+                    </div>
                 </div>
-                <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                    <p> <a href="#" target="_blank">support@company.com</a></p>
+                <div class="col-md-4 footer-about">
+                    <h4>About the company</h4>
+                    <p> Beauty of Nature is dedicated to celebrating and preserving the natural world. We promote eco-friendly living through sustainable products and initiatives that inspire a deeper connection with nature. Join us in making the world a greener, more beautiful place.</p>
+                    <div class="social-links social-icons"><a href="https://wa.me/qr/PZGKKDLCYRIDK1"><i class="fa fa-whatsapp"></i></a><a href="https://www.instagram.com/_shruti___03?igsh=bnY3dWNzcWwxZ2tu"><i class="fa fa-instagram"></i></a><a href="https://www.snapchat.com/add/shruticl_03?share_id=S3JVdN1K1wU&amp;locale=en-IN"><i class="fa fa-snapchat"></i></a><a href="https://github.com/shruticl-03/bootstrap-studio-practice.git"><i class="fa fa-github"></i></a></div>
                 </div>
-            </div>
-            <div class="col-md-4 footer-about">
-                <h4>About the company</h4>
-                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
-                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
             </div>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
